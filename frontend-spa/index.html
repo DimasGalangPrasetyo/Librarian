@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librarian - Rental Buku dan Komik Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.prod.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Inter', 'ui-sans-serif', 'system-ui'],
+          },
+          boxShadow: {
+            soft: '0 18px 55px rgba(15, 23, 42, 0.12)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 font-display text-slate-900">
+  <div id="app"></div>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/components/Home.js"></script>
+  <script src="assets/js/components/TypePage.js"></script>
+  <script src="assets/js/components/DetailPage.js"></script>
+  <script src="assets/js/components/Login.js"></script>
+  <script src="assets/js/components/AdminDashboard.js"></script>
+  <script src="assets/js/components/AdminKategori.js"></script>
+  <script src="assets/js/components/AdminKoleksi.js"></script>
+  <script src="assets/js/components/AdminAnggota.js"></script>
+  <script src="assets/js/components/AdminPeminjaman.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
